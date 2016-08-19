@@ -4,6 +4,7 @@ build/*
 gen/*
 LabletTests/gen/*
 app/src/main/jniLibs/*
+*.iml
 
 # IDEA project files
 workspace.xml
@@ -13,7 +14,12 @@ keystore.properties
 Project_Default.xml
 profiles_settings.xml
 .idea/libraries/*
-
+.idea/gradle.xml
+.idea/modules.xml
+.idea/vcs.xml
+openCVLibrary2411/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml
+openCVLibrary2411/build/intermediates/incremental/mergeDebugAssets/merger.xml
+openCVLibrary2411/build/intermediates/incremental/mergeReleaseAssets/merger.xml
 .gradle/*
 
 
@@ -21,9 +27,12 @@ profiles_settings.xml
 ant.properties
 proguard-project.txt
 *.apk
+*.aar
+*.ap_
 *.hprof
 *.jar
 *.bc
+*.swp
 
 # dolphin (KDE file manager)
 .directory
